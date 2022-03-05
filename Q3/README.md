@@ -9,8 +9,8 @@ this implementation is based on an [aws cdk example](https://github.com/aws-samp
 Create and source a Python virtualenv on MacOS and Linux, and install python dependencies:
 
 ```
-$ python3 -m venv .env
-$ source .env/bin/activate
+$ python3 -m venv .venv
+$ source .venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
@@ -25,5 +25,5 @@ $ npm i -g aws-cdk
 At this point, you should be able to deploy all the stacks in this app using:
 
 ```shell
-$ cdk deploy '*'
+$ TABLE_NAME=urls cdk deploy '*'
 ```
