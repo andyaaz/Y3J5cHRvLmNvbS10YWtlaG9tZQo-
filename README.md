@@ -8,7 +8,7 @@ Input files are in `./test_logs`
 
 ## Q2.​ AWS​ API​ programming
 
-Run `./Q2.sh <name_of_your_instance>`
+Run `./Q2.sh <name_of_your_instance> [your-private-key-path]`
 
 ## Q3. System design and Implementation
 
